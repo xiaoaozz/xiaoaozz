@@ -1,0 +1,54 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: xiaoaozz
+
+          template: classic
+
+          filename: github-metrics.svg
+
+          config_timezone: Asia/Shanghai
+
+          base: header, activity, community, repositories, metadata
+
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+
+          plugin_isocalendar: yes
+
+          plugin_habits: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+          plugin_followup: yes
+
+          plugin_repositories: yes
+
+          plugin_lines: yes
+
+          plugin_traffic: yes
+
+          plugin_topics: yes
+
+          plugin_topics_limit: 15
+
+          plugin_stars: yes

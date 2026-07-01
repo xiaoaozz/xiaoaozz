@@ -93,37 +93,7 @@
 
 </div>
 
----
 
-## 📈 贡献曲线
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=xiaoaozz&theme=react-dark&hide_border=true&bg_color=0D1117&color=6366F1&line=6366F1&point=FFFFFF&area=true&area_color=6366F1" alt="Activity Graph" />
-
----
-
-## 🌌 3D Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xiaoaozz/xiaoaozz/main/profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xiaoaozz/xiaoaozz/main/profile-3d-contrib/profile-night-rainbow.svg" />
-  <img alt="3D Contribution Graph" src="https://raw.githubusercontent.com/xiaoaozz/xiaoaozz/main/profile-3d-contrib/profile-night-rainbow.svg" />
-</picture>
-
-> 由 GitHub Actions 每日自动生成，主题：`profile-night-rainbow`
-
----
-
-## 🐍 Snake Animation
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/xiaoaozz/xiaoaozz/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
-</div>
-
-> 由 GitHub Actions 每日自动生成
-
----
 
 ## 🏆 成就
 
@@ -196,39 +166,15 @@
 
 ---
 
-## 🛤️ 学习路线
-
-```text
-2023 ──▶ Java 基础
-           │
-           ▼
-        Spring
-           │
-           ▼
-      Spring Boot
-           │
-           ▼
-        Docker
-           │
-           ▼
-     Kubernetes
-           │
-           ▼
-      AI / LLM 应用
-```
-
----
 
 ## 📫 联系方式
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-xiaoaozz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/xiaoaozz)
-[![Email](https://img.shields.io/badge/Email-你的邮箱-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Email](https://img.shields.io/badge/Email-zzzaolin@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 
 </div>
-
-> 请把 `你的邮箱` 和 `your-email@example.com` 替换成真实邮箱。
 
 ---
 
