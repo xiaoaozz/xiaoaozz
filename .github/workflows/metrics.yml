@@ -6,49 +6,102 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   github-metrics:
+
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - uses: lowlighter/metrics@latest
+
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+
         with:
+
           token: ${{ secrets.METRICS_TOKEN }}
 
           user: xiaoaozz
-
-          template: classic
 
           filename: github-metrics.svg
 
           config_timezone: Asia/Shanghai
 
+          template: classic
+
           base: header, activity, community, repositories, metadata
+
+          ########################
+          ## Languages
+          ########################
 
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_recent_days: 365
+          plugin_languages_recent_load: 300
+
+          ########################
+          ## Isocalendar
+          ########################
 
           plugin_isocalendar: yes
 
+          ########################
+          ## Habits
+          ########################
+
           plugin_habits: yes
-          plugin_habits_days: 14
+          plugin_habits_days: 30
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
+          ########################
+          ## Follow Up
+          ########################
+
           plugin_followup: yes
+          plugin_followup_sections: repositories
+
+          ########################
+          ## Repositories
+          ########################
 
           plugin_repositories: yes
+          plugin_repositories_featured: xiaoaozz
+          plugin_repositories_affiliations: owner
+
+          ########################
+          ## Lines of Code
+          ########################
 
           plugin_lines: yes
 
-          plugin_traffic: yes
-
-          plugin_topics: yes
-
-          plugin_topics_limit: 15
+          ########################
+          ## Stars
+          ########################
 
           plugin_stars: yes
+
+          ########################
+          ## Topics
+          ########################
+
+          plugin_topics: yes
+          plugin_topics_limit: 15
+
+          ########################
+          ## Achievements
+          ########################
+
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+
+          ########################
+          ## Traffic
+          ########################
+
+          plugin_traffic: yes

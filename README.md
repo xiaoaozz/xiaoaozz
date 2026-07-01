@@ -1,178 +1,313 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:238636,100:2EA043&height=220&section=header&text=xiaoaozz&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+</p>
+
 <div align="center">
 
-# 你好，我是 xiaoaozz
+# 👋 你好，我是 xiaoaozz
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Java+Developer;Backend+Engineer;Open+Source+Enthusiast&color=6366F1&background=0D1117&center=true&vCenter=true&multiline=true" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&vCenter=true&width=500&lines=Java+Developer;Backend+Engineer;Open+Source+Enthusiast;AI+Application+Learner&color=2EA043&background=0D1117"/>
 
-<img src="https://komarev.com/ghpvc/?username=xiaoaozz&color=6366F1&style=flat-square" alt="Profile views" />
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=xiaoaozz&style=flat-square&color=2EA043"/>
+
 </div>
 
 ---
 
-## 👨‍💻 关于我
+# 👨‍💻 About Me
 
 <table>
 <tr>
+
 <td width="55%" valign="top">
 
-- 👨‍💻 **后端开发** · 专注服务端架构
-- ☕ **Java** · 日常主力语言
-- 🌱 **正在学习** · AI / 大模型应用
-- 🚀 **热爱开源** · 持续贡献中
-- 📍 **坐标** · 中国
-- ✉️ **联系** · 见底部联系方式
+### 🚀 Backend Engineer
+
+- ☕ Java Backend Developer
+- 🌱 Learning AI & LLM Applications
+- 🚀 Open Source Enthusiast
+- 💻 Focus on Spring Boot Ecosystem
+- 🐳 Docker / Linux User
+- 📍 China
+
+### 🎯 Current Focus
+
+- Spring Boot
+- Spring Cloud
+- Redis
+- Kafka
+- LangChain
+- OpenAI API
 
 </td>
-<td width="45%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/xiaoaozz/xiaoaozz/main/images/developer.gif" width="320" alt="Developer" />
+<td width="45%" align="center">
+
+<img src="https://raw.githubusercontent.com/xiaoaozz/xiaoaozz/main/images/developer.gif" width="320"/>
 
 </td>
+
 </tr>
 </table>
 
 ---
 
-## 🛠️ 技术栈
+# 🛠 Tech Stack
 
-### Backend
-
-<p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Cloud" />
-<img src="https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-<img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" alt="Kafka" />
-<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-</p>
-
-### Frontend
+## ☕ Backend
 
 <p>
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-</p>
 
-### AI
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
 
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-<img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/SpringCloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/MyBatis-000000?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+
 </p>
 
 ---
 
-## 📊 GitHub 数据统计
+## 🎨 Frontend
+
+<p>
+
+<img src="https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+
+</p>
+
+---
+
+## 🤖 AI
+
+<p>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+
+</p>
+
+---
+
+# 📊 GitHub Statistics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=xiaoaozz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9&count_private=true" width="49%" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaoaozz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9&count_private=true&langs_count=8" width="49%" alt="Top Languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=xiaoaozz&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2EA043&icon_color=2EA043&text_color=C9D1D9&count_private=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaoaozz&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2EA043&text_color=C9D1D9&langs_count=8"/>
 
 </div>
 
 ---
 
-## 🔥 连续提交
+# 📈 GitHub Metrics
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=xiaoaozz&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak" />
+<img
+src="https://raw.githubusercontent.com/xiaoaozz/xiaoaozz/main/github-metrics.svg"
+width="100%"
+alt="GitHub Metrics"/>
 
 </div>
 
+> Automatically updated every day by GitHub Actions.
 
+---
 
-## 🏆 成就
+# 🔥 Contribution Streak
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=xiaoaozz&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=8" alt="Trophies" />
+<img
+src="https://streak-stats.demolab.com?user=xiaoaozz&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=2EA043&ring=2EA043&fire=2EA043&currStreakLabel=2EA043"
+alt="GitHub Streak"/>
 
 </div>
 
 ---
 
-## ⭐ 精选项目
+# 🏆 GitHub Trophy
+
+<div align="center">
+
+<img
+src="https://github-profile-trophy.vercel.app/?username=xiaoaozz&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=4"/>
+
+</div>
+
+---
+
+# 📈 Contribution Activity
+
+<div align="center">
+
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=xiaoaozz&theme=github-compact&hide_border=true&bg_color=0D1117&color=2EA043&line=2EA043&point=56D364&area=true&area_color=2EA043"/>
+
+</div>
+
+---
+
+# 🐍 Snake Animation
+
+<div align="center">
+
+<img
+src="https://raw.githubusercontent.com/xiaoaozz/xiaoaozz/output/github-contribution-grid-snake-dark.svg"
+alt="Snake Animation"/>
+
+</div>
+
+> Automatically generated every day by GitHub Actions.
+
+---
+
+# ⭐ Featured Projects
 
 <table>
+
 <tr>
+
 <td width="50%" valign="top">
 
-### 📦 Project A
-**一句话介绍占位**
+## 🚀 AI CRM
 
-`Java` `Spring Boot`
+> AI + Spring Boot CRM System
 
-⭐⭐⭐⭐⭐
+**Tech Stack**
 
-[查看仓库 →](#)
+`Java` `Spring Boot` `Redis` `MySQL`
+
+Backend CRM system integrated with AI capabilities.
+
+<a href="https://github.com/xiaoaozz">
+<img src="https://img.shields.io/badge/View-Repository-2EA043?style=for-the-badge&logo=github"/>
+</a>
 
 </td>
+
 <td width="50%" valign="top">
 
-### 📦 Project B
-**一句话介绍占位**
+## 📦 Java Toolkit
 
-`Java` `Redis`
+> Java Development Utilities
 
-⭐⭐⭐⭐⭐
+**Tech Stack**
 
-[查看仓库 →](#)
+`Java` `Maven`
+
+A lightweight toolkit for Java developers.
+
+<a href="https://github.com/xiaoaozz">
+<img src="https://img.shields.io/badge/View-Repository-2EA043?style=for-the-badge&logo=github"/>
+</a>
 
 </td>
+
 </tr>
+
 <tr>
+
 <td width="50%" valign="top">
 
-### 📦 Project C
-**一句话介绍占位**
+## 🤖 AI Agent
 
-`Python` `AI`
+> LLM Application Practice
 
-⭐⭐⭐⭐⭐
+**Tech Stack**
 
-[查看仓库 →](#)
+`Python`
+`LangChain`
+`OpenAI`
+
+An AI Agent project based on LLM.
+
+<a href="https://github.com/xiaoaozz">
+<img src="https://img.shields.io/badge/View-Repository-2EA043?style=for-the-badge&logo=github"/>
+</a>
 
 </td>
+
 <td width="50%" valign="top">
 
-### 📦 Project D
-**一句话介绍占位**
+## 🌐 Vue Admin
 
-`Vue` `TypeScript`
+> Vue3 Admin Dashboard
 
-⭐⭐⭐⭐⭐
+**Tech Stack**
 
-[查看仓库 →](#)
+`Vue3`
+`TypeScript`
+`Vite`
+
+A modern admin template.
+
+<a href="https://github.com/xiaoaozz">
+<img src="https://img.shields.io/badge/View-Repository-2EA043?style=for-the-badge&logo=github"/>
+</a>
 
 </td>
+
 </tr>
+
 </table>
 
-> 在每个项目仓库里把上面的 `Project A` 等占位替换为真实项目名和链接即可。
+> Replace the repository links above with your actual project repositories.
 
 ---
 
-
-## 📫 联系方式
+# 📫 Contact Me
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-xiaoaozz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/xiaoaozz)
-[![Email](https://img.shields.io/badge/Email-zzzaolin@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+<a href="https://github.com/xiaoaozz">
+
+<img src="https://img.shields.io/badge/GitHub-xiaoaozz-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+<a href="mailto:zzzaolin@qq.com">
+
+<img src="https://img.shields.io/badge/Email-zzzaolin@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+
+</a>
 
 </div>
 
@@ -180,8 +315,9 @@
 
 <div align="center">
 
-**Keep Coding. Keep Learning. Keep Building.**
+### ⭐ Keep Coding · Keep Learning · Keep Building ⭐
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=120&section=footer" alt="Footer" />
+<img
+src="https://capsule-render.vercel.app/api?type=waving&color=0:238636,100:2EA043&height=120&section=footer"/>
 
 </div>

@@ -1,59 +1,38 @@
-name: Generate Snake Animation
+name: Generate Snake
 
 on:
-  # 每天 UTC 00:00 触发
   schedule:
     - cron: "0 0 * * *"
-  # 允许手动触发
+
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  generate:
+  build:
+
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
 
-      - name: Ensure assets directory exists
-        run: mkdir -p assets
+      - uses: Platane/snk@v3
+        id: snake
 
-      - name: Generate Snake SVG (light)
-        uses: Platane/Platane/output@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          path: assets/github-contribution-grid-snake.svg
+          github_user_name: xiaoaozz
 
-      - name: Generate Snake SVG (dark)
-        uses: Platane/Platane/output@v3
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push Snake
+
+        uses: crazy-max/ghaction-github-pages@v4
+
         with:
-          github_user_name: ${{ github.repository_owner }}
-          path: assets/github-contribution-grid-snake-dark.svg
+          target_branch: output
+          build_dir: dist
 
-      - name: Generate Snake GIF
-        uses: Platane/Platane/output@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          path: assets/github-contribution-grid-snake.gif
-
-      - name: Generate Snake GIF (dark)
-        uses: Platane/Platane/output@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          path: assets/github-contribution-grid-snake-dark.gif
-
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "🐍 update snake animation"
-            git push
-          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
