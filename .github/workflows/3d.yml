@@ -3,40 +3,27 @@ name: Generate 3D Contribution
 on:
   schedule:
     - cron: "0 18 * * *"
-
   workflow_dispatch:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
-
       - uses: actions/checkout@v4
 
       - name: Generate 3D Contribution
-
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
           USERNAME: xiaoaozz
+          SETTING_FILE: .github/3d-contrib/setting.json
 
       - name: Commit files
-
         run: |
-
           git config user.name github-actions
-
           git config user.email github-actions@github.com
-
           git add .
-
-          git diff --cached --quiet || git commit -m "Generate 3D contribution"
-
+          git diff --cached --quiet || git commit -m "Update 3D contribution"
           git push

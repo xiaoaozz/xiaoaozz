@@ -1,0 +1,19 @@
+{
+  "fileName": "profile-3d-contrib/profile-3d-contrib.svg",
+  "width": 1280,
+  "height": 720,
+  "colorScheme": {
+    "backgroundColor": "#0D1117",
+    "contribColors": {
+      "0": "#161B22",
+      "1": "#0E4429",
+      "2": "#006D32",
+      "3": "#26A641",
+      "4": "#39D353"
+    },
+    "labelTextColor": "#8B949E",
+    "monthTextColor": "#8B949E",
+    "weekTextColor": "#8B949E",
+    "tableNameColor": "#2EA043"
+  }
+}
