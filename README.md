@@ -34,8 +34,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=xiaoaozz&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaoaozz&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=xiaoaozz&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=xiaoaozz&layout=compact&theme=tokyonight" alt="Top Languages" />
 </div>
 
 <div align="center">
