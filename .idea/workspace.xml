@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94844a6c-72ec-4033-9740-1fc8f223847f" name="更改" comment="feat：优化个人主页布局与样式，新增3D贡献图配置" />
+    <list default="true" id="94844a6c-72ec-4033-9740-1fc8f223847f" name="更改" comment="feat：优化个人主页布局与样式，新增3D贡献图配置">
+      <change beforePath="$PROJECT_DIR$/.github/3d-contrib/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/3d.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/3d.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-3d-contrib/profile-customize.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +15,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "xiaoaozz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xiaoaozz&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/xiaoaozz/xiaoaozz.git",
-    "accountId": "e873f405-4ba2-4f6c-8ae0-7613eec1fe23"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xiaoaozz/xiaoaozz.git&quot;,
+    &quot;accountId&quot;: &quot;e873f405-4ba2-4f6c-8ae0-7613eec1fe23&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3FuQe2JVDxTQVJJQJJEoxJuTkkh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,9 +41,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="xiaoaozz" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="xiaoaozz" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -111,34 +130,34 @@
     <breakpoint-manager>
       <breakpoints-defaults>
         <breakpoint type="java-exception">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="kotlin-line">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="java-collection">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="java-method">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="java-wildcard-method">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="java-field">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="java-line">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="OracleBreakpointType">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="kotlin-field">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
         <breakpoint type="kotlin-function">
-          <option name="timeStamp" value="1782922567560" />
+          <option name="timeStamp" value="1782962376131" />
         </breakpoint>
       </breakpoints-defaults>
     </breakpoint-manager>
