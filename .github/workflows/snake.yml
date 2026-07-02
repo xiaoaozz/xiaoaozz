@@ -2,37 +2,32 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
+      - uses: actions/checkout@v4
 
-      - uses: Platane/snk@v3
-        id: snake
-
+      - name: generate snake animation
+        uses: Platane/snk@v3
         with:
           github_user_name: xiaoaozz
-
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            profile-snake-contrib/github-contribution-grid-snake.svg
+            profile-snake-contrib/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push Snake
-
-        uses: crazy-max/ghaction-github-pages@v4
-
-        with:
-          target_branch: output
-          build_dir: dist
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add profile-snake-contrib/*.svg
+          git commit -m "chore: update snake contribution animation" || echo "no changes"
+          git push

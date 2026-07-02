@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94844a6c-72ec-4033-9740-1fc8f223847f" name="更改" comment="feat：优化个人主页布局与样式，新增3D贡献图配置" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "xiaoaozz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/xiaoaozz/xiaoaozz.git",
+    "accountId": "e873f405-4ba2-4f6c-8ae0-7613eec1fe23"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3FuQe2JVDxTQVJJQJJEoxJuTkkh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="94844a6c-72ec-4033-9740-1fc8f223847f" name="更改" comment="" />
+      <created>1782922567443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782922567443</updated>
+    </task>
+    <task id="LOCAL-00001" summary="chore:初始化GitHub个人主页README&#10;&#10;-新增README.md，包含Banner、关于我、技术栈、GitHub数据统计、连续提交、贡献曲线、3DContributions、Snake、成就、精选项目、学习路线、联系方式等模块&#10;-新增GitHubActions：每日自动生成贪吃蛇动画与3D贡献图&#10;-新增.gitignore忽略IDE临时文件&#10;-新建assets/、images/、profile-3d-contrib/占位目录">
+      <option name="closed" value="true" />
+      <created>1782925429280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782925429280</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat：配置自动刷新token">
+      <option name="closed" value="true" />
+      <created>1782926343577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782926343577</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat：优化readme以及自动生成任务">
+      <option name="closed" value="true" />
+      <created>1782927008420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782927008420</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat：优化个人主页布局与样式，新增3D贡献图配置">
+      <option name="closed" value="true" />
+      <created>1782927600945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782927600945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore:初始化GitHub个人主页README&#10;&#10;-新增README.md，包含Banner、关于我、技术栈、GitHub数据统计、连续提交、贡献曲线、3DContributions、Snake、成就、精选项目、学习路线、联系方式等模块&#10;-新增GitHubActions：每日自动生成贪吃蛇动画与3D贡献图&#10;-新增.gitignore忽略IDE临时文件&#10;-新建assets/、images/、profile-3d-contrib/占位目录" />
+    <MESSAGE value="feat：配置自动刷新token" />
+    <MESSAGE value="feat：优化readme以及自动生成任务" />
+    <MESSAGE value="feat：优化个人主页布局与样式，新增3D贡献图配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：优化个人主页布局与样式，新增3D贡献图配置" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint type="java-exception">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="kotlin-line">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="java-collection">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="java-method">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="java-wildcard-method">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="java-field">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="java-line">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="OracleBreakpointType">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="kotlin-field">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+        <breakpoint type="kotlin-function">
+          <option name="timeStamp" value="1782922567560" />
+        </breakpoint>
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+</project>

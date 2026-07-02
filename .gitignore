@@ -1,21 +1,4 @@
-# IntelliJ IDEA
-.idea/
-*.iml
-*.iws
-*.ipr
-
-# VS Code
-.vscode/
-
-# macOS
 .DS_Store
-
-# Windows
-Thumbs.db
-
-# Logs
 *.log
-
-# Profile 3D generated files are tracked by git (committed by GitHub Action)
-# but exclude any temporary outputs
-profile-3d-contrib/*.svg.tmp
+.vscode/
+node_modules/

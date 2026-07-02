@@ -1,9 +1,12 @@
-name: Generate 3D Contribution
+name: Generate 3D contribution
 
 on:
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -13,17 +16,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate 3D Contribution
+      - name: generate 3d contribution graphs
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SETTING_JSON: .github/3d-contrib/setting.json
           USERNAME: xiaoaozz
-          SETTING_FILE: .github/3d-contrib/setting.json
 
-      - name: Commit files
+      - name: commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add .
-          git diff --cached --quiet || git commit -m "Update 3D contribution"
+          git add profile-3d-contrib/*.svg
+          git commit -m "chore: update 3d contribution graph" || echo "no changes"
           git push
