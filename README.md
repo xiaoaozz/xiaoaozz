@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=42D445&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+xiaoaozz+%F0%9F%91%8B;Welcome+to+my+profile+%E2%9C%A8;Write+something+cool+about+yourself+here)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=42D445&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+xiaoaozz+%F0%9F%91%8B;Test+Development+Engineer+%C2%B7+AI+Enthusiast;Exploring+AI+Agents+and+LLM+Engineering)](https://git.io/typing-svg)
 
 [![GitHub followers](https://img.shields.io/github/followers/xiaoaozz?label=Follow&style=social)](https://github.com/xiaoaozz)
 [![GitHub stars](https://img.shields.io/github/stars/xiaoaozz?affiliations=OWNER&style=social)](https://github.com/xiaoaozz)

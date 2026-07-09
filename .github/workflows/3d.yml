@@ -27,5 +27,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add profile-3d-contrib/*.svg
-          git commit -m "chore: update 3d contribution graph" || echo "no changes"
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "chore: update 3d contribution graph"
           git push
