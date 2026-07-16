@@ -4,9 +4,12 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+# Snake and 3D both write generated assets to main. Use the same concurrency
+# group in both workflows so their commits cannot race with each other.
+concurrency:
+  group: profile-contribution-assets
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -15,6 +18,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: generate snake animation
         uses: Platane/snk@v3
@@ -31,4 +36,5 @@ jobs:
           git add profile-snake-contrib/*.svg
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "chore: update snake contribution animation"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -4,9 +4,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+# Keep this group identical to snake.yml because both workflows push to main.
+concurrency:
+  group: profile-contribution-assets
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -15,6 +17,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: generate 3d contribution graphs
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -29,4 +33,5 @@ jobs:
           git add profile-3d-contrib/*.svg
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "chore: update 3d contribution graph"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
