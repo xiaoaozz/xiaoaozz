@@ -1,0 +1,36 @@
+{
+  "title": "🚀 Featured Projects",
+  "columns": 2,
+  "all_projects_text": "Explore all projects →",
+  "all_projects_url": "https://github.com/xiaoaozz?tab=repositories",
+  "projects": [
+    {
+      "emoji": "🤖",
+      "name": "AgentPulse",
+      "url": "https://github.com/xiaoaozz/AgentPulse",
+      "description": "A lightweight native dashboard for tracking Codex, Claude Code, and custom AI Agent sessions across macOS and Windows.",
+      "tags": ["Swift", "SwiftUI", "WinUI 3", ".NET 8"]
+    },
+    {
+      "emoji": "🧠",
+      "name": "KfSmart",
+      "url": "https://github.com/xiaoaozz/KfSmart",
+      "description": "An enterprise-grade RAG knowledge base with intelligent document processing, semantic search, and multi-tenant access control.",
+      "tags": ["Java", "Spring Boot", "Vue 3", "Elasticsearch"]
+    },
+    {
+      "emoji": "🛠️",
+      "name": "learn-claude-code",
+      "url": "https://github.com/xiaoaozz/learn-claude-code",
+      "description": "A from-scratch exploration of coding-agent harness engineering, covering tools, context, permissions, and agent loops.",
+      "tags": ["TypeScript", "AI Agent", "LLM"]
+    },
+    {
+      "emoji": "☕",
+      "name": "jvm-by-head-go",
+      "url": "https://github.com/xiaoaozz/jvm-by-head-go",
+      "description": "A JVM implementation written in Go, built to explore class loading, class-file parsing, and bytecode execution from first principles.",
+      "tags": ["Go", "JVM", "Bytecode"]
+    }
+  ]
+}

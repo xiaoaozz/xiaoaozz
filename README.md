@@ -28,6 +28,48 @@
 
 </div>
 
+<!-- PROJECTS:START -->
+<!-- Edit projects.json, then run: python3 scripts/render_projects.py -->
+
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/xiaoaozz/AgentPulse">AgentPulse</a></h3>
+      <p>A lightweight native dashboard for tracking Codex, Claude Code, and custom AI Agent sessions across macOS and Windows.</p>
+      <p><code>Swift</code> <code>SwiftUI</code> <code>WinUI 3</code> <code>.NET 8</code></p>
+      <a href="https://github.com/xiaoaozz/AgentPulse">View repository →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/xiaoaozz/KfSmart">KfSmart</a></h3>
+      <p>An enterprise-grade RAG knowledge base with intelligent document processing, semantic search, and multi-tenant access control.</p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>Vue 3</code> <code>Elasticsearch</code></p>
+      <a href="https://github.com/xiaoaozz/KfSmart">View repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛠️ <a href="https://github.com/xiaoaozz/learn-claude-code">learn-claude-code</a></h3>
+      <p>A from-scratch exploration of coding-agent harness engineering, covering tools, context, permissions, and agent loops.</p>
+      <p><code>TypeScript</code> <code>AI Agent</code> <code>LLM</code></p>
+      <a href="https://github.com/xiaoaozz/learn-claude-code">View repository →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>☕ <a href="https://github.com/xiaoaozz/jvm-by-head-go">jvm-by-head-go</a></h3>
+      <p>A JVM implementation written in Go, built to explore class loading, class-file parsing, and bytecode execution from first principles.</p>
+      <p><code>Go</code> <code>JVM</code> <code>Bytecode</code></p>
+      <a href="https://github.com/xiaoaozz/jvm-by-head-go">View repository →</a>
+    </td>
+  </tr>
+</table>
+
+<div align="right">
+  <a href="https://github.com/xiaoaozz?tab=repositories">Explore all projects →</a>
+</div>
+
+<!-- PROJECTS:END -->
+
 ## 📊 GitHub Stats
 
 <div align="center">
