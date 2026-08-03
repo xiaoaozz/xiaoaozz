@@ -7,6 +7,22 @@
 
 </div>
 
+## 🌐 3D Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green.svg">
+  <img src="profile-3d-contrib/profile-green.svg" alt="3D contribution graph" />
+</picture>
+
+## 🐍 Snake Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-snake-contrib/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile-snake-contrib/github-contribution-grid-snake.svg">
+  <img src="profile-snake-contrib/github-contribution-grid-snake.svg" alt="Snake contribution graph" />
+</picture>
+
 ## 👋 About Me
 
 |  |  |
@@ -120,22 +136,6 @@
     <img width="100%" src="https://trophy.benkou.dev/?username=xiaoaozz&theme=flat&row=1&column=7&margin-w=8&margin-h=8&no-frame=true" alt="GitHub profile trophies" />
   </picture>
 </div>
-
-## 🌐 3D Contribution Graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
-  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green.svg">
-  <img src="profile-3d-contrib/profile-green.svg" alt="3D contribution graph" />
-</picture>
-
-## 🐍 Snake Contribution Graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-snake-contrib/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="profile-snake-contrib/github-contribution-grid-snake.svg">
-  <img src="profile-snake-contrib/github-contribution-grid-snake.svg" alt="Snake contribution graph" />
-</picture>
 
 ---
 
