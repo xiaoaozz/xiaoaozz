@@ -1,0 +1,16 @@
+settings:
+  username: "xiaoaozz"
+  commit_msg: "chore: update recent GitHub activity"
+  max_lines: 5
+  readme_file: "./README.md"
+  disabled_events:
+    - "comments"
+  ignored_repos:
+    - "xiaoaozz/xiaoaozz"
+  date:
+    timezone: "GMT+08:00"
+    text: "<sub>Last updated: {DATE} (UTC+8)</sub>"
+    format: "yyyy-mm-dd HH:MM:ss"
+  commit_name: "github-actions[bot]"
+  commit_email: "41898282+github-actions[bot]@users.noreply.github.com"
+  line_prefix: "{NUM}. "

@@ -70,15 +70,55 @@
 
 <!-- PROJECTS:END -->
 
+## 📈 GitHub at a Glance
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/0-profile-details.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile-summary-card-output/vue/0-profile-details.svg">
+    <img width="100%" src="profile-summary-card-output/vue/0-profile-details.svg" alt="GitHub profile summary" />
+  </picture>
+</div>
+
+## 🛰️ Recent Activity
+
+<!--RECENT_ACTIVITY:start-->
+<!-- The recent activity workflow updates this section automatically. -->
+<!--RECENT_ACTIVITY:end-->
+
+<!--RECENT_ACTIVITY:last_update-->
+
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=xiaoaozz&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=xiaoaozz&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=xiaoaozz&show_icons=true&include_all_commits=true&show=reviews,prs_merged&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=xiaoaozz&show_icons=true&include_all_commits=true&show=reviews,prs_merged&theme=vue">
+    <img height="185" src="https://github-stats-extended.vercel.app/api?username=xiaoaozz&show_icons=true&include_all_commits=true&show=reviews,prs_merged&theme=vue" alt="GitHub statistics" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=xiaoaozz&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=xiaoaozz&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&theme=vue">
+    <img height="185" src="https://github-stats-extended.vercel.app/api/top-langs/?username=xiaoaozz&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&theme=vue" alt="Most used languages" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=xiaoaozz&theme=tokyonight" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=xiaoaozz&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=xiaoaozz">
+    <img src="https://streak-stats.demolab.com/?user=xiaoaozz" alt="GitHub contribution streak" />
+  </picture>
+</div>
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://trophy.benkou.dev/?username=xiaoaozz&theme=tokyonight&row=1&column=7&margin-w=8&margin-h=8&no-frame=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://trophy.benkou.dev/?username=xiaoaozz&theme=flat&row=1&column=7&margin-w=8&margin-h=8&no-frame=true">
+    <img width="100%" src="https://trophy.benkou.dev/?username=xiaoaozz&theme=flat&row=1&column=7&margin-w=8&margin-h=8&no-frame=true" alt="GitHub profile trophies" />
+  </picture>
 </div>
 
 ## 🌐 3D Contribution Graph
